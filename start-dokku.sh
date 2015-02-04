@@ -24,6 +24,7 @@ echo "root:$PASSWORD" | chpasswd
 
 echo "SSH Login:"
 echo "  user: root"
+echo " -----------  " "$PASSWORD"
 echo "  password: $PASSWORD"
 echo "  ip: $(hostname -I)"
 
